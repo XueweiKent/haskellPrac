@@ -1,6 +1,7 @@
 General Setup (v0.2)
 ======================
 
+
 Welcome to CS 421! Before we can get started, you'll need to set up your
 environment with at least both git and Haskell. (We'll cover the latter later.)
 

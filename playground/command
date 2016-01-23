@@ -1,0 +1,7 @@
+ghc -o firstHS firstHS.hs
+
+ghci
+	:load firstHS.hs
+
+ghc -O2 --make multiCore.hs -threaded -rtsopts
+time ./multiCore +RTS -N2
