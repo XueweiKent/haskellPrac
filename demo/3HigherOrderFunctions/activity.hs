@@ -11,3 +11,6 @@ sumSqr xx = foldr (\a b -> (a*a+b) ) 0 xx
 zipWith' f [] _ = []
 zipWith' f _ [] = []
 zipWith' f (x:xs) (y:ys) = f x y : (zipWith' f xs ys)
+
+--foldl
+nest xx = foldl ( \a -> "(" ++ (print a) ++ ")" ) "" xx
